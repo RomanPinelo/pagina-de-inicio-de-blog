@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*================================================
-  GENERAL STYLES
+  GENERAL STYLES 
 ================================================*/
 * {
   box-sizing: border-box;
@@ -271,7 +271,7 @@ main {
 /* Left section */
 #news {
   width: 18.6757rem;
-  position: relative;
+  position: absolute;
   top: 2.1332rem;
   left: 53.6261rem;
 }
@@ -326,11 +326,13 @@ main {
   /* View all button */
   .v-all {
     display: block;
+    height: 3.1998rem;
     color: #B2ACBA;
     text-decoration: none;
     font-size: 0.75rem;
     font-weight: bold;
     letter-spacing: 0.15rem;
+    padding: 1.1732rem 0 1.2266rem 0;
   }
 
   .v-all:hover {
@@ -343,11 +345,10 @@ main {
     border-top: 2px;
     border-top-style: solid;
     border-top-color: #F4F3F5;
-    padding: 1.1732rem 0 1.2266rem 0;
   }
 
-  /* Latest and recommended news section */
-  .latest-news, .recommended-news {
+  /* Latest news, recommended news and categories section */
+  .latest-news, .recommended-news, .categories {
     background-color: #FFF;
     width: 100%;
     border-radius: 0.9375rem;
@@ -365,6 +366,53 @@ main {
     margin: 1.5999rem 0;
   }
   
+  /* Categories buttons */
+  .cat-button {
+    display: block;
+    height: 2.6665rem;
+    text-decoration: none;
+    color: #211138;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    border-bottom: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-color: #F4F3F5;
+    padding: 0.9066rem 1.6007rem 0.9599rem;
+  }
 
+  .cat-button:hover {
+    color: #6200EA;
+  }
 
+/*================================================
+  FOOTER STYLES
+================================================*/
+footer {
+  background-color: #211138;
+  display: table;
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  position: absolute;
+  top: 130rem;
+  left: 0;
+}
 
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+  /* Text style */
+  footer small {
+    color: #B2ACBA;
+    letter-spacing: 0.15rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: block;
+  }
+
+  footer span {
+    color: #6200EA;
+}
