@@ -50,10 +50,10 @@ header {
     left: 15.3125rem;
   }
 
-.subs:hover {
-  color: #211138;
-  border-color: #211138;
-}
+  .subs:hover {
+    color: #211138;
+    border-color: #211138;
+  }
 
   /* Logo */
   #head {
@@ -113,7 +113,7 @@ main {
   position: relative;
 }
 
-/* Right section */
+/* Left section */
 #publications {
   width: 38.9523rem;
   position: absolute;
@@ -268,7 +268,7 @@ main {
     border-radius: 0.9375rem 0.9375rem 0 0;
   }
 
-/* Left section */
+/* Right section */
 #news {
   width: 18.6757rem;
   position: absolute;
